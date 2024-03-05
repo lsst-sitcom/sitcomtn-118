@@ -1,0 +1,23 @@
+[technote]
+id = "SITCOMTN-118"
+series_id = "SITCOMTN"
+canonical_url = "https://sitcomtn-118.lsst.io"
+github_url = "https://github.com/lsst-sitcom/sitcomtn-118"
+github_default_branch = "main"
+date_created = 2024-03-05T15:02:01Z
+organization.name = "Vera C. Rubin Observatory"
+organization.ror = "https://ror.org/048g3cy84"
+license.id = "CC-BY-4.0"
+
+[technote.status]
+state = "draft"
+
+[[technote.authors]]
+name.given = "Bekah"
+name.family = "Polen"
+internal_id = "polenb"
+
+[[technote.authors.affiliations]]
+name = "Department of Physics"
+internal_id = "Duke"
+address = "Duke University, Durham, NC 27708, USA"
