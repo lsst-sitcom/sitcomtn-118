@@ -12,5 +12,3 @@ Background
 ==========
 
 The process for this test relies on two major AOS software packages, the wavefront estimation pipeline (WEP) and the optical feedback control (OFC). First a donut is passed through the WEP to obtain the wavefront zernikes of Noll index 4-22. Then, these zernikes are passed through the OFC to get an estimate of the 50 degrees of freedom of the telescope system. These values are then compared back to the injected values and tested at three different elevations. 
-
-================
