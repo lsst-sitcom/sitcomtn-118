@@ -26,8 +26,10 @@ Then, these zernike values are passed through the OFC, which takes zernike value
 Simulation
 ==========
 
-Exposures were simulating using the `ImSim <https://github.com/LSSTDESC/imSim>`__ package. ComCam is one raft consisting of nine CCDs. Since ComCam does not have wavefront sensors, a separate exposure had to be simulated to generate the intra-, extra-, and in-focus images. Therefore, an entire ComCam exposure was simulated for -7.5mm, -1.5mm, 0mm, 1.5mm, and 7.5mm of defocus. Each defocus was simulated in all six bands, at three zenith angles, for a total of 90 ComCam exposures. 
+Exposures were simulating using the `imSim <https://github.com/LSSTDESC/imSim>`__ package. ComCam is one raft consisting of nine CCDs. Since ComCam does not have wavefront sensors, a separate exposure was simulated to generate the intra-, extra-, and in-focus images. Therefore, an entire ComCam exposure was simulated for -7.5mm, -1.5mm, 0mm, 1.5mm, and 7.5mm of defocus. Each defocus was simulated in all six bands, at three zenith angles, for a total of 90 ComCam exposures. 
 
 
 Results
 =======
+
+
