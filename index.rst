@@ -44,11 +44,11 @@ The following conditions were used to simulate the data, with an MJD correspondi
 +--------------+--------------+--------------+
 | Zenith Angle |      RA      |     Dec      |
 +==============+==============+==============+
-|    0.0 deg   |  14:07:46.30 | -26:48:07.50 |
+|    0.0 deg   | 14:07:46.30  | -26:48:07.50 |
 +--------------+--------------+--------------+
-|   30.0 deg   |  19:18:10.60 | -45:25:22.70 |
+|   30.0 deg   | 19:18:10.60  | -45:25:22.70 |
 +--------------+--------------+--------------+
-|   60.0 deg   |  11:58:29.00 | -85:56:23.60 |
+|   60.0 deg   | 11:58:29.00  | -85:56:23.60 |
 +--------------+--------------+--------------+
 
 All images are in the following location: /sdf/group/rubin/user/rp312/ComCam/Giant_Donut, and are not yet ingested into the AOS butler. 
