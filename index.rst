@@ -26,10 +26,48 @@ Then, these zernike values are passed through the OFC, which takes zernike value
 Simulation
 ==========
 
-Exposures were simulating using the `imSim <https://github.com/LSSTDESC/imSim>`__ package. ComCam is one raft consisting of nine CCDs. Since ComCam does not have wavefront sensors, a separate exposure was simulated to generate the intra-, extra-, and in-focus images. Therefore, an entire ComCam exposure was simulated for -7.5mm, -1.5mm, 0mm, 1.5mm, and 7.5mm of defocus. Each defocus was simulated in all six bands, at three zenith angles, for a total of 90 ComCam exposures. 
+Exposures were simulating using the `imSim <https://github.com/LSSTDESC/imSim>`__ package. ComCam is one raft consisting of nine CCDs. Since ComCam does not have wavefront sensors, a separate exposure was simulated to generate the intra-, extra-, and in-focus images. Therefore, an entire ComCam exposure was simulated for -7.5mm, -1.5mm, 0mm, 1.5mm, and 7.5mm of defocus. Each defocus was simulated in all six bands, at three zenith angles, for a total of 90 full ComCam exposures. 
+
+The injected, true degrees of freedom were entirely set to zero with the exception of the defocus of the camera, which is the sixth degree of freedom. 
+
+.. figure:: /_static/injectedDOF.png
+    :name: Injected DOF
+    :target: ../_images/injectedDOF.png
+    :alt: Injected degrees of freedom for each camera defocus to generate donuts.
+    :width: 70%
+    :align: center
+
+    *Figure 1: Injected degrees of freedom for each camera defocus to generate donuts.*
+
+The following conditions were used to simulate the data, with an MJD corresponding to the evening of July 23rd, 2024. 
+
++--------------+--------------+--------------+
+| Zenith Angle |      RA      |     Dec      |
++==============+==============+==============+
+|    0.0 deg   |  14:07:46.30 | -26:48:07.50 |
++--------------+--------------+--------------+
+|   30.0 deg   |  19:18:10.60 | -45:25:22.70 |
++--------------+--------------+--------------+
+|   60.0 deg   |  11:58:29.00 | -85:56:23.60 |
++--------------+--------------+--------------+
+
+All images are in the following location: /sdf/group/rubin/user/rp312/ComCam/Giant_Donut, and are not yet ingested into the AOS butler. 
 
 
 Results
 =======
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
