@@ -37,7 +37,7 @@ The injected, true degrees of freedom were entirely set to zero with the excepti
     :width: 70%
     :align: center
 
-    *Figure 1: Injected degrees of freedom for each camera defocus to generate donuts.*
+    *Injected degrees of freedom for each camera defocus to generate donuts.*
 
 
 
@@ -61,10 +61,30 @@ All images are in the following location: /sdf/group/rubin/user/rp312/ComCam/Gia
 Results
 =======
 
+Due to the size of the giant donuts used in this test, generated at a defocus of +/-7.5mm, it was not possible to avoid blending. A flux cutoff of 4.e6 was used to obtain the brightest possible sources that would not rely on the Fast Fourier Transform algorithm (FFT). At this time, objects simulated in imSim which are bright enough to switch to the FFT algorithm cannot be defocused. Only the giant donuts are significantly affected by blending and lower signal-to-noise. Figures 2 and 3 are cutouts of the same star. 
 
 
+.. figure:: /_static/giantdonut.png
+    :name: Giant Donut Cutout
+    :target: ../_static/giantdonut.png
+    :alt: Cutout of a giant intrafocal donut in the u-band, on detector 002 at a zenith angle of 0.0 degrees.
+    :width: 70%
+    :align: center
+
+    *Cutout of a giant intrafocal donut in the u-band, on detector 002 at a zenith angle of 0.0 degrees.*
 
 
+.. figure:: /_static/regdonut.png
+    :name: Regular Donut Cutout
+    :target: ../_static/regdonut.png
+    :alt: Cutout of a regular intrafocal donut in the u-band, on detector 002 at a zenith angle of 0.0 degrees.
+    :width: 70%
+    :align: center
+
+    *Cutout of a regular intrafocal donut in the u-band, on detector 002 at a zenith angle of 0.0 degrees.*
+
+
+Donuts like these, depcited in Figures 2 and 3, are 
 
 
 
