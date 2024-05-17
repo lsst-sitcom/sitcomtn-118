@@ -39,6 +39,10 @@ The injected, true degrees of freedom were entirely set to zero with the excepti
 
     *Figure 1: Injected degrees of freedom for each camera defocus to generate donuts.*
 
+
+
+
+
 The following conditions were used to simulate the data, with an MJD corresponding to the evening of July 23rd, 2024. 
 
 +--------------+--------------+--------------+
