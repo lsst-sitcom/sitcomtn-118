@@ -32,7 +32,7 @@ The injected, true degrees of freedom were entirely set to zero with the excepti
 
 .. figure:: /_static/injectedDOF.png
     :name: Injected DOF
-    :target: ../_images/injectedDOF.png
+    :target: ../_static/injectedDOF.png
     :alt: Injected degrees of freedom for each camera defocus to generate donuts.
     :width: 70%
     :align: center
