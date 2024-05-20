@@ -84,7 +84,44 @@ Due to the size of the giant donuts used in this test, generated at a defocus of
     *Cutout of a regular intrafocal donut in the u-band, on detector 002 at a zenith angle of 0.0 degrees.*
 
 
-Donuts like these, depcited in Figures 2 and 3, are 
+Donuts like these, depcited in Figures 2 and 3, are an example of what would be passed through the WEP and OFC algorithms to generate the following results. 
+
+
+
+Wavefront Estimation Results
+----------------------------
+
+At this time, there is an unidentified issue with the wavefront estimation pipeline that generates a large value for the zernike coefficient with a Noll index of 4, which corresponds to defocus. 
+
+
+.. figure:: /_static/WFEalldonuts.png
+    :name: Wavefront Estimation of Giant and Regular Donuts at all Zenith Angles
+    :target: ../_static/WFEalldonuts.png
+    :alt: Wavefront estimation of giant and regular donuts at all zenith angles.
+    :width: 70%
+    :align: center
+
+    *Wavefront estimation for giant and regular donuts at all zenith angles.*
+
+
+In Figure 4, the spike for the defocus is clear on all six subplots. It is more pronounced for the giant donuts than the regular donuts, but still affects the regular donuts. More clearly for the regular donuts than the giant donuts, there appears to be some correlation with the offset to the filter. For example, in the u-band, the offset is consistently smaller than the other bands. Despite being less noticeable in the giant donuts, they follow the same pattern. 
+
+Optical State Estimation Results
+--------------------------------
+
+Conversely to the wavefront estimation results, the filters with the biggest offset in the WEP have the smallest offset in the OFC. 
+
+
+.. figure:: /_static/OFCalldonuts.png
+    :name: Degrees of Freedom Estimation of Giant and Regular Donuts at all Zenith Angles
+    :target: ../_static/OFCalldonuts.png
+    :alt: Degrees of freedom estimation of giant and regular donuts at all zenith angles.
+    :width: 70%
+    :align: center
+
+    *Degrees of freedom estimation for giant and regular donuts at all zenith angles, corresponding to the optical state of the telescope.*
+
+
 
 
 
