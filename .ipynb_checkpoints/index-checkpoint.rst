@@ -37,7 +37,7 @@ The injected, true degrees of freedom were entirely set to zero with the excepti
     :width: 70%
     :align: center
 
-    *Injected degrees of freedom for each camera defocus to generate donuts.*
+    *Injected degrees of freedom, or the baseline optical state of the telescope with ComCam prior to the aforementioned defocus values.*
 
 
 
