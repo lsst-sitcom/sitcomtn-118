@@ -84,7 +84,7 @@ Due to the size of the giant donuts used in this test, generated at a defocus of
     *Cutout of a regular intrafocal donut in the u-band, on detector 002 at a zenith angle of 0.0 degrees.*
 
 
-Donuts like these, depcited in Figures 2 and 3, are an example of what would be passed through the WEP and OFC algorithms to generate the following results. 
+Donuts like these, depcited in Figures 2 and 3, are an example of what would be passed through the WEP and OFC algorithms to generate the following results. The standard deviation of the intensity is 25.74 electrons per pixel for the giant donut and 41.97 electrons per pixel for the regular donut. This result confirms that there is a much higher signal-to-noise ratio for the regular donuts. 
 
 
 
@@ -106,8 +106,14 @@ At this time, there is an unidentified issue with the wavefront estimation pipel
 
 In Figure 4, the spike for the defocus is clear on all six subplots. It is more pronounced for the giant donuts than the regular donuts, but still affects the regular donuts. More clearly for the regular donuts than the giant donuts, there appears to be some correlation with the offset to the filter. For example, in the u-band, the offset is consistently smaller than the other bands. Despite being less noticeable in the giant donuts, they follow the same pattern. 
 
+Simulating donuts with an atmospheric point spread function (PSF) should affect the zernike corresponding to defocus by making the donuts appear larger, however this effect would cause the largest offset in the u-band moving to the y-band, not the other way around. 
+
+
+
 Optical State Estimation Results
 --------------------------------
+
+
 
 Conversely to the wavefront estimation results, the filters with the biggest offset in the WEP have the smallest offset in the OFC. 
 
@@ -120,6 +126,12 @@ Conversely to the wavefront estimation results, the filters with the biggest off
     :align: center
 
     *Degrees of freedom estimation for giant and regular donuts at all zenith angles, corresponding to the optical state of the telescope.*
+
+
+There are fifty degrees of freedom for the telescope system. The first ten correspond to the hexapods for the M2 mirror and the camera. The other forty are for the bending modes of the M1M3 monolith. The simulations here primarily affect the hexapod degrees of freedom, and the bending modes stay very stable. The giant donuts see a significant offset for the sixth degree of freedom, corresponding to camera dz, or defocus. This is to be expected if the error from the WEP is propogating through when the zernike arrays are then passed to the OFC. However, the regular donuts also show an offset for the first degree of freedom, which corresponds to the M2 dz, or defocus of the secondary mirror in addition to the camera. 
+
+
+
 
 
 
